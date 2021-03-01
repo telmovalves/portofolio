@@ -5,8 +5,7 @@ $(document).ready(function() {
     });
 
     $('.top-nav .nav-link').on('click', function(){
-        $('.menu-toggler').removeClass('open');
-        $('.top-nav').removeClass('open');
+        $('.menu-toggler, .top-nav').removeClass('open');
     });
 
     $('nav a[href*="#"]').on('click', function(){
